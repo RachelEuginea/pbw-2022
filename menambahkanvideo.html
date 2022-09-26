@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>menambahkan video</title>
+    </head>
+    <body>
+        <h2 align="center">MEMBUAT CHEESECAKE BERBAGAI RASA </h2>
+        <center><video width = "500" height="315" id="myVideo">
+            <source src = "노오븐블루베리 치즈케이크 만들기  NoBake Blueberry cheesecake Recipe  Cooking tree 쿠킹트리Cooking ASMR.mp4" type = "video/mp4"></center>
+        </video>
+        <p align="center">
+            <button onclick = "playVid          ()" type = "button"> Play Video     </button>
+            <button onclick = "pauseVid         ()" type = "button"> Pause Video    </button>
+            <button onclick = "controlsPlayVid  ()" type = "button"> Controls ON    </button>
+            <button onclick = "controlsStopVid  ()" type = "button"> Controls OFF   </button>
+        </p>
+        <p align="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TJgqyUUNYhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FxQsrIoqapU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+    </body>
+    <script>
+        var vid = document.getElementById ("myVideo");
+
+        function playVid () 
+        {
+            vid.play ();
+            vid.loop = true;
+        }
+        function pauseVid ()
+        {
+            vid.pause ();
+        }
+        function controlsPlayVid ()
+        {
+            vid.controls = true;
+            vid.load ();
+        }
+        function controlStopVid ()
+        {
+            vid.controls = false
+            vid.load ();
+        }
+    </script>
+</html>
