@@ -1,0 +1,52 @@
+body {
+    background: #A7D2CB;
+    font-family: roboto;
+    text-align: center;
+}
+h1 {
+    color: #874C62;
+}
+.ketengah {
+    margin: 10px auto;
+    width: 1150px;
+}
+.kotak {
+    background: #F2D388;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+}
+.kotak1 {
+    color: #874C62;
+    border-radius: 10px 10px 10px 10px;
+}
+.kotak2 {
+    color: #874C62;
+    border-radius: 40px 20px 60px 90px;
+}
+.kotak3 {
+    color: #874C62;
+    border-radius: 2px 140px 20px 60px;
+}
+.kotak4 {
+    color: #874C62;
+    border-radius: 0px 50px 0px 50px;
+}
+.kotak5 {
+    color: #874C62;
+    border-radius: 0px 0px 0px 0px;
+}
+.kotak6 {
+    color: #874C62;
+    border-radius: 100%;
+}
+.kotak7 {
+    color: #874C62;
+    border-radius: 40px 10px;
+}
+.kotak8 {
+    color: #874C62;
+    border-radius: 10px 10px 50% 50%;
+}

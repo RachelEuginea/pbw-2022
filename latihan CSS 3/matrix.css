@@ -1,0 +1,32 @@
+body {
+    background: #377D71;
+    font-family: roboto;
+    text-align: center;
+}
+h1,h2 {
+    color: #fff;
+}
+.ketengah {
+    margin: 10px auto;
+    width: 1150px;
+}
+.kotak1 {
+    background: #FBC5C5;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+}
+.kotak2 {
+    background: #FBC5C5;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    matrix(scaleX(),skewY(),skewX(),scaleY(),tranlateX(),translateY())
+    -ms-transform: matrix(2,2,-1,1,5,7); /* Suport IE9 */
+    -webkit-transform: matrix(2,2,-1,1,5,7); /* support safari */
+    transform: matrix(2,2,-1,1,5,7); /* standard syntax */
+}
