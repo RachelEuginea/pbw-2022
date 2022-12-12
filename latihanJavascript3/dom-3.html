@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM API Javascript</title>
+</head>
+
+<body>
+    <p class="paragraf">Pada contoh praktikum 1 diatas, dipilih element HTML dengan 
+        fungsi document.getElementById(). kemudian membuatkan objek 
+        untuk  elemen  tersebut. Setelah  itu,  bisa  dilakukan  apapun  yang 
+        diinginkan seperti mengubah teks dan style CSS.</p>
+    <p class="paragraf">Bagaimana kalau ada lebih dari satu elemen yang dipilih?</p>
+    <p class="paragraf">Misalnya 
+        akan dipilih elemen berdasarkan nama tag atau atribut class, maka 
+        elemen yang akan terpilih akan menjadi sebuah array. Karena 
+        memilih  sekumpulan  elemen,  array  tersebut  akan  berisi  objek  DOM 
+        dari elemen-elemen yang terpilih. </p>
+
+        <script>
+            var paragraf = document.getElementsByClassName("paragraf");
+            setInterval(function() {
+                paragraf[0].style.color = "#FCF9BE";
+                paragraf[1].style.color = "#FFDCA9";
+                paragraf[2].style.color = "#FAAB78";
+
+                setTimeout(function () {
+                    paragraf[0].style.color = "black";
+                    paragraf[1].style.color = "black";
+                    paragraf[2].style.color = "black";
+                }, 500)
+            }, 1000)
+        </script>
+</body>
+</html>
