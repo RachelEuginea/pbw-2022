@@ -1,0 +1,80 @@
+[
+    {
+        "nim":"A11.2022.14771",
+        "nama":"Rachel Euginea Valerie",
+        "alamat":"Semarang",
+        "jurusan":"Teknik Informatika",
+        "MK":[
+            {
+                "mk_kode":"54101",
+                "nama_mk":"KALKULUS 1"
+            },
+            {
+                "mk_kode":"54105",
+                "nama_mk":"DASAR PEMROGRAMAN"
+            },
+            {
+                "mk_kode":"54302",
+                "nama_mk":"MATEMATIKA DISKRIT"
+            },
+            {
+                "mk_kode":"54314",
+                "nama_mk":"PEMROGRAMAN BERBASIS WEB"
+            },
+            {
+                "mk_kode":"54403",
+                "nama_mk":"ORGANISASI DAN ARSITEKTUR KOMPUTER"
+            },
+            {
+                "mk_kode":"AF201704",
+                "nama_mk":"DASAR DASAR KOMPUTASI"
+            },
+            {
+                "mk_kode":"U201704",
+                "nama_mk":"PENGANTAR TEKNOLOGI INFORMASI"
+            }
+        ]
+
+    },
+    {
+        "nim":"B11.2022.08035",
+        "nama":"Ratri Ayu Pramesinta",
+        "alamat":"Ambarawa",
+        "jurusan":"Manajemen",
+        "MK":[
+            {
+                "mk_kode":"7101",
+                "nama_mk":"AKUNTANSI PENGANTAR 1"
+            },
+            {
+                "mk_kode":"7102",
+                "nama_mk":"PENGANTAR EKONOMI MAKRO"
+            },
+            {
+                "mk_kode":"7103",
+                "nama_mk":"PENGANTAR BISNIS"
+            },
+            {
+                "mk_kode":"7104",
+                "nama_mk":"MATEMATIKA EKONOMI"
+            },
+            {
+                "mk_kode":"7105",
+                "nama_mk":"PENGANTAR MANAJEMEN"
+            },
+            {
+                "mk_kode":"7106",
+                "nama_mk":"MANAJEMEN SUMBER DAYA MANUSIA"
+            },
+            {
+                "mk_kode":"U201701",
+                "nama_mk":"DASAR KEWIRAUSAHAAN"
+            },
+            {
+                "mk_kode":"U201704",
+                "nama_mk":"PENGANTAR TEKNOLOGI INFORMASI"
+            }
+        ]
+
+    }
+]
